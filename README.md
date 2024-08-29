@@ -1,4 +1,4 @@
-# ZulipClient - приложение клиент для мессенджера Zulip
+# ZulipClient - приложение-клиент для мессенджера Zulip
 
 ## Описание полученных навыков
 Стек технологий в проекте: Kotlin, Git, Gradle, Dagger2, Room, Kotlin Coroutines & Flow, Retrofit, Cicerone, Kotest, Kaspresso, Wiremock, MockK, MVI
