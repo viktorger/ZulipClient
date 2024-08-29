@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.foreign_profile.ForeignProfileFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbForeignProfile"
+        style="@style/Widget.Material3.Toolbar.SurfaceVariant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/profile"
+        app:titleTextAppearance="@style/TextAppearanceActionBar" />
+
+    <include
+        android:id="@+id/shimmerForeignProfile"
+        layout="@layout/shimmer_foreign_profile"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:visibility="gone" />
+
+    <include
+        android:id="@+id/dataForeignProfile"
+        layout="@layout/layout_foreign_profile"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/stream"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/item_channel_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvStreamStream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/margin_extra_large"
+        android:layout_marginStart="@dimen/margin_extra_large"
+        android:layout_marginEnd="42.5dp"
+        android:textAppearance="@style/TextAppearanceChannel"
+        app:drawableEndCompat="@drawable/expand_bg"
+        tools:text="#general" />
+
+</FrameLayout>

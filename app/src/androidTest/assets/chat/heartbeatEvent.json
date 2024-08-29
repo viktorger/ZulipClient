@@ -1,0 +1,11 @@
+{
+  "result": "success",
+  "msg": "",
+  "events": [
+    {
+      "type": "heartbeat",
+      "id": 0
+    }
+  ],
+  "queue_id": "807014f3-4529-428a-94b7-1d24894e2891"
+}

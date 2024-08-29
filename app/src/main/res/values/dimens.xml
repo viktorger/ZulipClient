@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_message_radius">18dp</dimen>
+    <dimen name="default_message_padding_vertical">10dp</dimen>
+    <dimen name="default_message_padding_horizontal">12dp</dimen>
+    <dimen name="message_margin_horizontal_short">12dp</dimen>
+    <dimen name="message_margin_horizontal_long">88dp</dimen>
+    <dimen name="message_margin_vertical">16dp</dimen>
+    <dimen name="default_message_image_indent">12dp</dimen>
+    <dimen name="default_message_body_indent">8dp</dimen>
+
+    <dimen name="margin_extra_small">8dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_extra_large">20dp</dimen>
+</resources>

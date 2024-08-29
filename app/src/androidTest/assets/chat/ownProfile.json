@@ -1,0 +1,21 @@
+{
+  "result": "success",
+  "msg": "",
+  "email": "user710247@tinkoff-android-spring-2024.zulipchat.com",
+  "user_id": 710247,
+  "avatar_version": 2,
+  "is_admin": false,
+  "is_owner": false,
+  "is_guest": false,
+  "is_billing_admin": false,
+  "role": 400,
+  "is_bot": false,
+  "full_name": "Viktor",
+  "timezone": "Europe/Moscow",
+  "is_active": true,
+  "date_joined": "2024-04-15T18:00:25.200742+00:00",
+  "delivery_email": "viktorger288@gmail.com",
+  "avatar_url": "https://zulip-avatars.s3.amazonaws.com/63414/1c9bfe076cf7bbb4a02fb6e93a1097200bfa4b06?version=2",
+  "profile_data": {},
+  "max_message_id": 439899869
+}

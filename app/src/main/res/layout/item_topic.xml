@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/topic"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTopicName"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="40dp"
+            android:textAppearance="@style/TextAppearanceChannel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/topic"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/tvTopicMessageCount"
+            android:layout_marginStart="24dp"
+            tools:text="@string/message_count_example"
+            android:textAppearance="@style/TextAppearanceMessageCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?attr/colorSurface" />
+</LinearLayout>
+

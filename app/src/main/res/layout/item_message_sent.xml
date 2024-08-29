@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.viktorger.zulip_client.app.core.ui.custom_view.OwnMessageLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/omlMessageSent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="144dp"
+    app:own_message_body_indent="@dimen/default_message_body_indent"
+    android:layout_marginStart="@dimen/message_margin_horizontal_long"
+    android:layout_marginEnd="@dimen/message_margin_horizontal_short"
+    android:layout_marginVertical="@dimen/message_margin_vertical"/>

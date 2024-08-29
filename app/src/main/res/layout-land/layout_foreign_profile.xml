@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/sivForeignProfile"
+        android:layout_width="185dp"
+        android:layout_height="185dp"
+        android:contentDescription="@string/avatar_description"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@id/tvForeignProfileUsername"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Large"
+        tools:src="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/tvForeignProfileUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_large"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textAppearance="@style/TextAppearanceUsernameInProfile"
+        app:layout_constrainedWidth="true"
+
+        app:layout_constraintBottom_toTopOf="@id/tvForeignProfileStatus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sivForeignProfile"
+        tools:text="@string/username" />
+
+    <TextView
+        android:id="@+id/tvForeignProfileStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearanceStatus"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvForeignProfileUsername"
+        tools:text="@string/status_active" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

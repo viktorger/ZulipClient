@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:id="@+id/tvMessageSent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearanceMessage"
+        android:layout_gravity="end"
+        android:background="@drawable/own_message_bg"
+        android:paddingHorizontal="@dimen/default_message_padding_horizontal"
+        android:paddingVertical="@dimen/default_message_padding_vertical"
+        tools:text="@string/message" />
+
+    <com.viktorger.zulip_client.app.core.ui.custom_view.FlexBoxLayout
+        android:id="@+id/fblMessageSent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"/>
+
+</merge>

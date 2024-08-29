@@ -1,0 +1,197 @@
+{
+  "result": "success",
+  "msg": "",
+  "messages": [
+    {
+      "id": 438788230,
+      "sender_id": 708820,
+      "content": "<p>ко</p>",
+      "recipient_id": 1252628,
+      "timestamp": 1715775333,
+      "reactions": [],
+      "flags": [],
+      "sender_full_name": "Богдан Боготов",
+      "sender_realm_str": "tinkoff-android-spring-2024",
+      "display_recipient": "general",
+      "type": "stream",
+      "avatar_url": "https://zulip-avatars.s3.amazonaws.com/63414/cc28ab08acfd8f5e20ce62d68742a97509a996e9?version=3",
+      "content_type": "text/html"
+    },
+    {
+      "id": 438788237,
+      "sender_id": 708820,
+      "content": "<p>дау</p>",
+      "recipient_id": 1252628,
+      "timestamp": 1715775335,
+      "reactions": [],
+      "flags": [],
+      "sender_full_name": "Богдан Боготов",
+      "sender_realm_str": "tinkoff-android-spring-2024",
+      "display_recipient": "general",
+      "type": "stream",
+      "avatar_url": "https://zulip-avatars.s3.amazonaws.com/63414/cc28ab08acfd8f5e20ce62d68742a97509a996e9?version=3",
+      "content_type": "text/html"
+    },
+    {
+      "id": 438788774,
+      "sender_id": 708820,
+      "content": "<p>s</p>",
+      "recipient_id": 1252628,
+      "timestamp": 1715775524,
+      "reactions": [],
+      "flags": [],
+      "sender_full_name": "Богдан Боготов",
+      "sender_realm_str": "tinkoff-android-spring-2024",
+      "display_recipient": "general",
+      "type": "stream",
+      "avatar_url": "https://zulip-avatars.s3.amazonaws.com/63414/cc28ab08acfd8f5e20ce62d68742a97509a996e9?version=3",
+      "content_type": "text/html"
+    },
+    {
+      "id": 438788787,
+      "sender_id": 708820,
+      "content": "<p>вфв</p>",
+      "recipient_id": 1252628,
+      "timestamp": 1715775528,
+      "reactions": [],
+      "flags": [],
+      "sender_full_name": "Богдан Боготов",
+      "sender_realm_str": "tinkoff-android-spring-2024",
+      "display_recipient": "general",
+      "type": "stream",
+      "avatar_url": "https://zulip-avatars.s3.amazonaws.com/63414/cc28ab08acfd8f5e20ce62d68742a97509a996e9?version=3",
+      "content_type": "text/html"
+    },
+    {
+      "id": 438799360,
+      "sender_id": 708820,
+      "content": "<p>и</p>",
+      "recipient_id": 1252628,
+      "timestamp": 1715778959,
+      "reactions": [],
+      "flags": [],
+      "sender_full_name": "Богдан Боготов",
+      "sender_realm_str": "tinkoff-android-spring-2024",
+      "display_recipient": "general",
+      "type": "stream",
+      "avatar_url": "https://zulip-avatars.s3.amazonaws.com/63414/cc28ab08acfd8f5e20ce62d68742a97509a996e9?version=3",
+      "content_type": "text/html"
+    },
+    {
+      "id": 438799366,
+      "sender_id": 708820,
+      "content": "<p>мвке</p>",
+      "recipient_id": 1252628,
+      "timestamp": 1715778961,
+      "is_me_message": false,
+      "reactions": [],
+      "flags": [],
+      "sender_full_name": "Богдан Боготов",
+      "sender_realm_str": "tinkoff-android-spring-2024",
+      "display_recipient": "general",
+      "type": "stream",
+      "avatar_url": "https://zulip-avatars.s3.amazonaws.com/63414/cc28ab08acfd8f5e20ce62d68742a97509a996e9?version=3",
+      "content_type": "text/html"
+    },
+    {
+      "id": 439088350,
+      "sender_id": 709379,
+      "content": "<p>DF</p>",
+      "recipient_id": 1252628,
+      "timestamp": 1715888108,
+      "reactions": [],
+      "flags": [],
+      "sender_full_name": "Lev",
+      "sender_realm_str": "tinkoff-android-spring-2024",
+      "display_recipient": "general",
+      "type": "stream",
+      "avatar_url": "https://zulip-avatars.s3.amazonaws.com/63414/d41455c5ba1ff839cf3336040fee19331742bc52?version=2",
+      "content_type": "text/html"
+    },
+    {
+      "id": 439105014,
+      "sender_id": 710247,
+      "content": "<p>.</p>",
+      "recipient_id": 1252628,
+      "timestamp": 1715895020,
+      "reactions": [
+        {
+          "emoji_name": "hug",
+          "emoji_code": "1f917",
+          "reaction_type": "unicode_emoji",
+          "user": {
+            "email": "user710247@tinkoff-android-spring-2024.zulipchat.com",
+            "id": 710247,
+            "full_name": "Viktor"
+          },
+          "user_id": 710247
+        },
+        {
+          "emoji_name": "hug",
+          "emoji_code": "1f917",
+          "reaction_type": "unicode_emoji",
+          "user": {
+            "email": "user709765@tinkoff-android-spring-2024.zulipchat.com",
+            "id": 709765,
+            "full_name": "Rostislav Kashentsev"
+          },
+          "user_id": 709765
+        }
+      ],
+      "flags": [],
+      "sender_full_name": "Viktor",
+      "sender_realm_str": "tinkoff-android-spring-2024",
+      "display_recipient": "general",
+      "type": "stream",
+      "avatar_url": "https://zulip-avatars.s3.amazonaws.com/63414/1c9bfe076cf7bbb4a02fb6e93a1097200bfa4b06?version=2",
+      "content_type": "text/html"
+    },
+    {
+      "id": 439281906,
+      "sender_id": 709831,
+      "content": "<p>.</p>",
+      "recipient_id": 1252628,
+      "timestamp": 1715974708,
+      "reactions": [],
+      "flags": [],
+      "sender_full_name": "Grigory",
+      "sender_realm_str": "tinkoff-android-spring-2024",
+      "display_recipient": "general",
+      "type": "stream",
+      "avatar_url": "https://secure.gravatar.com/avatar/1bed50e95be4d09ce0f3b22837f14b63?d=identicon&version=1",
+      "content_type": "text/html"
+    },
+    {
+      "id": 439337765,
+      "sender_id": 710247,
+      "content": "<p>Test</p>",
+      "recipient_id": 1252628,
+      "timestamp": 1716020591,
+      "reactions": [
+        {
+          "emoji_name": "hug",
+          "emoji_code": "1f917",
+          "reaction_type": "unicode_emoji",
+          "user": {
+            "email": "user709765@tinkoff-android-spring-2024.zulipchat.com",
+            "id": 709765,
+            "full_name": "Rostislav Kashentsev"
+          },
+          "user_id": 709765
+        }
+      ],
+      "flags": [],
+      "sender_full_name": "Viktor",
+      "sender_realm_str": "tinkoff-android-spring-2024",
+      "display_recipient": "general",
+      "type": "stream",
+      "avatar_url": "https://zulip-avatars.s3.amazonaws.com/63414/1c9bfe076cf7bbb4a02fb6e93a1097200bfa4b06?version=2",
+      "content_type": "text/html"
+    }
+  ],
+  "found_anchor": false,
+  "found_oldest": false,
+  "found_newest": true,
+  "history_limited": false,
+  "anchor": 10000000000000000
+}

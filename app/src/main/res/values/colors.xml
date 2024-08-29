@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="vampire_black">#070707</color>
+    <color name="chinese_black">#121212</color>
+    <color name="dark_eerie_black">#1B1B1B</color>
+    <color name="eerie_black">#1C1C1C</color>
+    <color name="light_eerie_black">#1E1E1E</color>
+    <color name="charleston_green">#282828</color>
+    <color name="dark_charcoal">#323232</color>
+    <color name="black_olive">#3A3A3A</color>
+    <color name="outer_space">#464646</color>
+    <color name="davys_gray">#555555</color>
+    <color name="philippine_gray">#919191</color>
+    <color name="quick_silver">#A1A1A1</color>
+    <color name="chinese_silver">#CCCCCC</color>
+    <color name="cultured">#F5F5F5</color>
+    <color name="lotion">#FAFAFA</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="jungle_green">#2A9D8F</color>
+    <color name="bangladesh_green">#006153</color>
+    <color name="sea_green">#219653</color>
+    <color name="apple">#4AB54D</color>
+    <color name="brass">#B1B54A</color>
+    <color name="deep_chestnut">#B54A4A</color>
+
+    <color name="main_text_color">@color/lotion</color>
+    <color name="channel_text_color">@color/chinese_silver</color>
+    <color name="additive_text_color">@color/quick_silver</color>
+    <color name="dragger_color">@color/davys_gray</color>
+    <color name="date_bg">@color/vampire_black</color>
+    <color name="add_button">@color/outer_space</color>
+    <color name="emoji_text_color">@color/chinese_silver</color>
+    <color name="primary_dark_for_gradient">@color/bangladesh_green</color>
+    <color name="status_active_color">@color/apple</color>
+    <color name="status_idle_color">@color/brass</color>
+    <color name="status_offline_color">@color/deep_chestnut</color>
+    <color name="log_out_button_color">@color/dark_eerie_black</color>
+    <color name="search_bg_tint">@color/dark_charcoal</color>
+    <color name="expand_color">@color/philippine_gray</color>
+    <color name="collapse_color">@color/white</color>
+    <color name="message_count_color">@color/cultured</color>
+    <color name="status_bar_color">@color/light_eerie_black</color>
+    <color name="shimmer_bg_color">@color/philippine_gray</color>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EmojiViewStyle" parent="">
+        <item name="android:background">@drawable/emoji_bg</item>
+        <item name="textColor">@color/emoji_text_color</item>
+        <item name="fontSize">14sp</item>
+    </style>
+
+    <style name="FlexBoxLayoutStyle" parent="">
+        <item name="spacing">8dp</item>
+    </style>
+
+    <style name="Widget.Material3.Toolbar.Primary">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:titleTextColor">?attr/colorOnPrimary</item>
+        <item name="titleTextAppearance">@style/TextAppearanceActionBar</item>
+    </style>
+
+    <style name="Widget.Material3.Toolbar.SurfaceVariant">
+        <item name="android:background">?attr/colorSurfaceVariant</item>
+        <item name="android:titleTextColor">?attr/colorOnPrimary</item>
+        <item name="titleTextAppearance">@style/TextAppearanceActionBar</item>
+    </style>
+
+    <style name="TextAppearanceUsernameInChat" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/inter</item>
+    </style>
+
+    <style name="TextAppearanceMessage" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/inter</item>
+    </style>
+
+    <style name="TextAppearanceUsernameInPeople" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/main_text_color</item>
+        <item name="android:textSize">22sp</item>
+        <item name="fontFamily">@font/inter</item>
+    </style>
+
+    <style name="TextAppearanceEmail" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/additive_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/inter</item>
+    </style>
+
+    <style name="TextAppearanceUsernameInProfile" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="fontFamily">@font/inter</item>
+    </style>
+
+    <style name="TextAppearanceActivity" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/additive_text_color</item>
+        <item name="fontFamily">@font/inter</item>
+    </style>
+
+    <style name="TextAppearanceStatus" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/status_active_color</item>
+        <item name="fontFamily">@font/inter</item>
+    </style>
+
+    <style name="TextAppearanceLogOutButton" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="fontFamily">@font/inter</item>
+    </style>
+
+    <style name="TextAppearanceTab" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="fontFamily">@font/inter</item>
+    </style>
+
+    <style name="TextAppearanceActionBar" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="fontFamily">@font/inter</item>
+    </style>
+
+    <style name="TextAppearanceChannel" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/main_text_color</item>
+        <item name="fontFamily">@font/inter</item>
+    </style>
+
+    <style name="TextAppearanceMessageCount" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/message_count_color</item>
+        <item name="fontFamily">@font/inter</item>
+    </style>
+
+    <style name="EditTextSearchStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:backgroundTint">@color/search_bg_tint</item>
+        <item name="android:inputType">textLongMessage|textCapSentences</item>
+        <item name="android:paddingHorizontal">36dp</item>
+        <item name="android:textAppearance">@style/TextAppearanceActionBar</item>
+        <item name="android:textColorHint">?attr/colorOnSurfaceVariant</item>
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="fontFamily">@font/inter</item>
+    </style>
+
+    <style name="TFSBottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorPrimary">@color/light_eerie_black</item>
+        <item name="colorOnSurface">@color/main_text_color</item>
+        <item name="colorOnSurfaceVariant">@color/philippine_gray</item>
+        <item name="colorOnSecondaryContainer">@color/main_text_color</item>
+    </style>
+
+    <style name="ProgressBarStyle" parent="Widget.AppCompat.ProgressBar">
+        <item name="materialThemeOverlay">
+            @style/ThemeOverlay.App.ProgressBarStyleThemeOverlay
+        </item>
+    </style>
+
+    <style name="ThemeOverlay.App.ProgressBarStyleThemeOverlay" parent="">
+        <item name="colorAccent">@color/main_text_color</item>
+    </style>
+</resources>

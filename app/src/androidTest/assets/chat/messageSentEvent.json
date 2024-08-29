@@ -1,0 +1,35 @@
+{
+  "result": "success",
+  "msg": "",
+  "events": [
+    {
+      "type": "message",
+      "message": {
+        "id": 440299894,
+        "sender_id": 710247,
+        "content": "<p>test text</p>",
+        "recipient_id": 1252628,
+        "timestamp": 1716220591,
+        "client": "website",
+        "subject": "first topic",
+        "topic_links": [],
+        "is_me_message": false,
+        "reactions": [],
+        "submessages": [],
+        "sender_full_name": "Viktor",
+        "sender_email": "user710247@tinkoff-android-spring-2024.zulipchat.com",
+        "sender_realm_str": "tinkoff-android-spring-2024",
+        "display_recipient": "general",
+        "type": "stream",
+        "stream_id": 432915,
+        "avatar_url": "https://zulip-avatars.s3.amazonaws.com/63414/1c9bfe076cf7bbb4a02fb6e93a1097200bfa4b06?version=2",
+        "content_type": "text/x-markdown"
+      },
+      "flags": [
+        "read"
+      ],
+      "id": 0
+    }
+  ],
+  "queue_id": "bfb8263d-2005-4656-83ba-74c8be4a737f"
+}

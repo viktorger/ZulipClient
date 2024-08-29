@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:src="@drawable/icon_add"
+        android:background="@drawable/emoji_unselected_bg"
+        android:contentDescription="@string/add_button_description" />
+
+</merge>

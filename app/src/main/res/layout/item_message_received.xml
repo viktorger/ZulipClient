@@ -1,0 +1,17 @@
+<com.viktorger.zulip_client.app.core.ui.custom_view.MessageLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mlMessageReceived"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/message_margin_vertical"
+    android:layout_marginStart="@dimen/message_margin_horizontal_short"
+    android:layout_marginEnd="@dimen/message_margin_horizontal_long"
+    app:avatar="@drawable/avatar"
+    app:image_indent="@dimen/default_message_image_indent"
+    app:message_body_indent="@dimen/default_message_body_indent"
+    app:message_padding_horizontal="@dimen/default_message_padding_horizontal"
+    app:message_padding_vertical="@dimen/default_message_padding_vertical"
+
+    app:message="@string/message"
+    app:username="@string/username" />

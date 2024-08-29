@@ -1,0 +1,22 @@
+{
+  "result": "success",
+  "msg": "",
+  "events": [
+    {
+      "type": "reaction",
+      "op": "add",
+      "user_id": 710247,
+      "user": {
+        "user_id": 710247,
+        "email": "user710247@tinkoff-android-spring-2024.zulipchat.com",
+        "full_name": "Viktor"
+      },
+      "message_id": 439337765,
+      "emoji_name": "hug",
+      "emoji_code": "1f917",
+      "reaction_type": "unicode_emoji",
+      "id": 0
+    }
+  ],
+  "queue_id": "e4bdce96-dc5d-4d2c-b729-989a727abffd"
+}

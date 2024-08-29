@@ -1,0 +1,58 @@
+{
+  "result": "success",
+  "msg": "",
+  "topics": [
+    {
+      "name": "swimming turtles",
+      "max_id": 439361468
+    },
+    {
+      "name": "(no topic)",
+      "max_id": 439337765
+    },
+    {
+      "name": "testing",
+      "max_id": 439271136
+    },
+    {
+      "name": "(без темы)",
+      "max_id": 439216034
+    },
+    {
+      "name": "a",
+      "max_id": 439091998
+    },
+    {
+      "name": "новые каналы",
+      "max_id": 438981931
+    },
+    {
+      "name": "testtopic",
+      "max_id": 438944923
+    },
+    {
+      "name": "first topic",
+      "max_id": 438846747
+    },
+    {
+      "name": "topic demonstration",
+      "max_id": 438632818
+    },
+    {
+      "name": "testAndroid1",
+      "max_id": 438325642
+    },
+    {
+      "name": "События канала",
+      "max_id": 438213022
+    },
+    {
+      "name": "✔ start",
+      "max_id": 438205955
+    },
+    {
+      "name": "Zulip updates",
+      "max_id": 438185011
+    }
+  ]
+}

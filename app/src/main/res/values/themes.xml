@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.ZulipClient" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/jungle_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/jungle_green</item>
+        <item name="colorSurface">@color/eerie_black</item>
+        <item name="colorOnSurface">@color/main_text_color</item>
+        <item name="colorSurfaceBright">@color/black_olive</item>
+        <item name="colorSurfaceVariant">@color/light_eerie_black</item>
+        <item name="colorOnSurfaceVariant">@color/white</item>
+        <item name="colorSurfaceInverse">@color/charleston_green</item>
+        <item name="colorOnSurfaceInverse">@color/chinese_silver</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">?attr/colorSurfaceVariant</item>
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+        <item name="emojiViewStyle">@style/EmojiViewStyle</item>
+        <item name="flexBoxLayoutStyle">@style/FlexBoxLayoutStyle</item>
+        <item name="tabIndicatorColor">@color/sea_green</item>
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:windowBackground">@color/chinese_black</item>
+        <item name="bottomNavigationStyle">@style/TFSBottomNavigationView</item>
+    </style>
+
+    <style name="Theme.ZulipClient" parent="Base.Theme.ZulipClient" />
+</resources>

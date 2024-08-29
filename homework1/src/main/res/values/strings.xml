@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <string name="start_for_result">Start for result</string>
+    <string name="insanely_long_text">Long text very long text, no way it will fit in one line, so it has to be separated into at least two lines</string>
+</resources>

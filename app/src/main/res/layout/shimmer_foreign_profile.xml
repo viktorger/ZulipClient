@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/sivShimmerForeignProfile"
+            android:layout_width="185dp"
+            android:layout_height="185dp"
+            android:layout_marginTop="113dp"
+            android:contentDescription="@string/avatar_description"
+            android:scaleType="fitCenter"
+            android:src="@color/shimmer_bg_color"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Large" />
+
+        <TextView
+            android:id="@+id/tvShimmerForeignProfileUsername"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@color/shimmer_bg_color"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textAppearance="@style/TextAppearanceUsernameInProfile"
+            app:layout_constrainedWidth="true"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sivShimmerForeignProfile" />
+
+        <TextView
+            android:id="@+id/tvShimmerForeignProfileStatus"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@color/shimmer_bg_color"
+            android:textAppearance="@style/TextAppearanceStatus"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvShimmerForeignProfileUsername" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.facebook.shimmer.ShimmerFrameLayout>
